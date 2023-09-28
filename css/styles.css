@@ -78,6 +78,10 @@
   }
 }
 
+html {
+  font-family: fabfont, monospace;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
