@@ -78,10 +78,6 @@
   }
 }
 
-html {
-  font-family: fabfont, monospace;
-}
-
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -11448,3 +11444,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+html {
+  font-family: fabfont, monospace;
+}
+
