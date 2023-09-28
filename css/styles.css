@@ -13,20 +13,50 @@ hr {
   border: 1px solid #008000;
 }
 
-p, h1 {
+p, h1, a {
   color: #00ff00;
 }
 
-h1 {
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.title {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 4ch;
+  margin: 4ch;
   margin-bottom: 0px;
 }
 
-p {
+.post {
   display: block;
   text-align: justify;
   margin-top: 0px;
+}
+
+.entry {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.date {
+  font-weight: normal;
+  display: inline-block;  
+}
+
+.date p {
+  margin: 0;
+}
+
+.link {
+  display: inline-block;
+  margin: 0;
+}
+
+.link a {
+  margin: 0;
 }
